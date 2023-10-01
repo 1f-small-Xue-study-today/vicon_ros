@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <node  pkg="viconros" type="viconros" name="viconros" output="screen" ns="tailsitter_Xue">
+    <param name="vicon_host_name" value="192.168.50.74:801"/>
+    <param name="modelsegment_name" value="tailsitter_Xue"/>
+    <remap from="/tailsitter_Xue/viconros/mocap/pos" to="/mavros/vision_pose/pose" />
+  </node>
+
+  <!-- <node  pkg="viconros" type="viconros" name="viconros" output="screen" ns="corner3">
+    <param name="vicon_host_name" value="192.168.50.74:801"/>
+    <param name="modelsegment_name" value="corner3"/>
+    <remap from="/corner3/viconros/mocap/pos" to="/mavros/vision_pose/pose" />
+  </node> -->
+</launch>

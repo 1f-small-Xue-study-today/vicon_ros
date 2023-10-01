@@ -1,0 +1,8 @@
+time = linspace(0,2*pi,100);
+x = 2*sin(time).*cos(time);
+y = 1.5 * sin(time);
+z = 2+0.5* sin(time);
+
+Y range -1.5~1.5
+X range -1~1
+Z range 1.5~2.5

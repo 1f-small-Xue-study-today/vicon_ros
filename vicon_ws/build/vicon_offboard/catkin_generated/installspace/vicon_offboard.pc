@@ -1,0 +1,8 @@
+prefix=/home/ruize/Desktop/vicon_folder/vicon_ws/install
+
+Name: vicon_offboard
+Description: Description of vicon_offboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

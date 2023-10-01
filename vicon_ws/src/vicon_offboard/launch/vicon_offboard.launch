@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- This node will launch VICON feedback -->
+  <include file="$(find viconros)/launch/unit.launch"/>
+
+  <!-- This node will launch MAVROS -->
+  <include file="$(find mavros)/launch/px4.launch"/>
+  
+    <!-- This node will run vicon_offboard -->
+        <node pkg="vicon_offboard" type="vicon_offboard_node" name="vicon_offboard_node">
+    </node>
+
+</launch>

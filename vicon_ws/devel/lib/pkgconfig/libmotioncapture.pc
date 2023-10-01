@@ -1,0 +1,8 @@
+prefix=/home/ruize/Desktop/vicon_folder/vicon_ws/devel
+
+Name: libmotioncapture
+Description: Description of libmotioncapture
+Version: 0.0.1
+Cflags: -I/home/ruize/Desktop/vicon_folder/vicon_ws/src/externalDependencies/libmotioncapture/include
+Libs: -L${prefix}/lib -llibmotioncapture
+Requires: 

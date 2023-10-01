@@ -1,0 +1,26 @@
+updated May 27th 
+Vicon wifi:
+
+	dontcrash
+	
+		router username: dronelab
+		pw: dronelab
+		
+	MaRS Experiment_5G
+	mars6666
+
+
+
+
+
+alias bash="sudo vim ~/.bashrc"
+alias 0offBoard="roslaunch offboard_pkg offboard.launch"
+alias 1livoxDriver="roslaunch livox_ros_driver livox_lidar_msg.launch"
+alias 2fastLio="roslaunch fast_lio mapping_avia.launch"
+alias 3mavLink="roslaunch mavros px4.launch"
+alias 5vicon=" roslaunch viconros unit.launch"
+alias 6logger="rosbag record -o session4.bag /livox/imu /livox/lidar"
+
+
+
+如果要起飞，请提前进入fastLio把rviz关掉

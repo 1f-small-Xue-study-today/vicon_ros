@@ -1,0 +1,2 @@
+externalDependencies/libmotioncapture:externalDependencies/libobjecttracker:vicon_offboard:viconros
+-DCATKIN_DEVEL_PREFIX=/home/ruize/Desktop/vicon_folder/vicon_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ruize/Desktop/vicon_folder/vicon_ws/install -G Unix Makefiles
